@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import useInput from './hooks/useInput';
 import Hover from './components/Hover';
+import List from './components/List';
 
 function App() {
   const Username = useInput('');
@@ -17,6 +18,7 @@ function App() {
       </div>
       {/* useHover */}
       <Hover />
+      <List />
     </div>
   );
 }
